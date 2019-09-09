@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Email Sender</title>
+        <link rel="stylesheet" href="/css/emailbox.css">
+        <link href="/css/sweetalert2.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav id="id-nav">
+            <a font-size:"larger" class="gua-nav-link gua-active">Email Sender</a>
+            <a id="id-image" class="gua-nav-image gua-right">
+                    <!-- <img class="gua-avatar" src="https://w3-services1.w3-969.ibm.com/myw3/unified-profile-photo/v1/image/chenxyfr@cn.ibm.com">
+                    <span style="display: none" id="id-span-current-user" data-username="" data-email=""></span> -->
+                </a>
+            </a>
+        </nav>
+        <h1>Email Sender</h1>
+            <a class="file">Click here to upload excel
+                <input type="file" id="excel-file">
+            </a>
+            <a href="/images/Email Batch Sending Test Template.xlsx" download="Email Batch Sending Test Template.xlsx">example excel</a>
+            <p></p>
+            <div class="class-list">
+                <div class="class-namechose"></div>
+                <div id="id-div-container"></div>
+            </div>
+            <div class="list-main">
+                <ul class="tag-list"></ul>
+
+                <div class="tag-content-list">
+                </div>
+            </div>
+
+            <div id="id-edit-button" class="class-edit-button"></div>
+
+            <div class="class-chose-body"></div>
+            <div>
+                <div class="insert-button"></div>
+                <div class="replace-button"></div>
+                <div class="delete-button"></div>
+            </div>
+
+            <div id="id-editor-container">
+                <div id="id-editor"></div>
+            </div>
+
+
+            <p></p>
+            <div class="attachment"></div>
+
+            <div id="id-send-container" class="class-send">
+                <!-- <button id="id-button-send" class="email-send">send button</button> -->
+            </div>
+        <script src="/js/ryan.js"></script>
+        <script src="/js/jquery.js"></script>
+        <script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" > </script>
+        <script src= "/js/sweetalert2.all.js" > </script>
+        <script src="/js/index.js"></script>
+        <script src="/js/getUserdata.js"></script>
+        <script src="/js/xlsx.core.min.js"></script>
+        <script src="/js/wangEditor.js"></script>
+        <script src="/js/loadExcel.js"></script>
+        <script src="/js/mail.js"></script>
+    </body>
+</html>

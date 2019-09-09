@@ -1,0 +1,26 @@
+{
+    "name": "esender",
+    "version": "1.0.0",
+    "description": "application for sending email",
+    "main": "demo.js",
+    "scripts": {
+        "start": "node demo.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "ldapjs": "^1.0.1",
+        "nodegrass": "0.0.3",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.2",
+        "sweetalert2": "^8.15.3",
+        "xmldom": "^0.1.22",
+        "xpath": "0.0.23"
+    },
+    "devDependencies": {
+        "http-proxy-middleware": "^0.19.1"
+    },
+    "engines": {
+        "node": "10.15.0"
+    }
+}

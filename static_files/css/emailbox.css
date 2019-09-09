@@ -1,0 +1,278 @@
+.list {
+    border: 1px solid #278aab47;
+    padding: 5px;
+    margin: 5px;
+}
+#id-input-body {
+   width: 195px;
+   height: 85px;
+   border: 1px solid #ccc;
+   border-radius: 6px;
+}
+.class-InputEmail {
+    font-size: small;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.display {
+    display: none;
+}
+button {
+    display: inline-block;
+    padding: 2px 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    /* -ms-touch-action: manipulation; */
+    touch-action: manipulation;
+    cursor: pointer;
+    /* -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: rgb(249, 248, 248);
+    background-color: rgba(87, 199, 111, 0.96);
+}
+.email-send {
+    background-color: #3b9ece
+}
+#id-send-container {
+    width: min-content;
+}
+#id-button-chosed {
+    background-color: #3b9ece
+}
+.selected {
+    background-color: rgba(249, 198, 54, 0.98);
+}
+.chose-cell {
+    border: 1px solid #eee;
+    width: 415px;
+}
+.div-choice {
+    display: inline-block;
+    width: 350px;
+    height: 25px;
+}
+.show {
+    display: block !important;
+}
+
+.tag-content {
+    display: none;
+    margin: 20px;
+}
+
+.active {
+    background: lightyellow;
+}
+
+.yellow {
+    border: 1px solid #278aab;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+.tag {
+    display: inline-block;
+    height: 30px;
+    padding: 0 20px;
+    line-height: 30px;
+    cursor: pointer;
+    /* 去掉 li 标签的特殊前缀 */
+    list-style-type: none;
+    border: 1px solid black;
+    margin: 6px;
+}
+.class-list {
+    position: relative;
+    left: 10%;
+}
+.tag-list {
+    text-align: center;
+}
+.blue {
+    text-shadow: 0 0 1px darkslateblue;
+    color: darkblue;
+}
+
+/* file */
+.file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    margin-top: 1%;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+/* nav */
+nav#id-nav {
+    background: #2ea0c5;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    margin-left: -10px;
+}
+a.gua-nav-link {
+    height: inherit;
+    float: left;
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    box-sizing: border-box
+}
+a.gua-nav-link:hover {
+    background-color: #4b8aad
+}
+
+/* image */
+a.gua-right {
+	float: right
+}
+a.gua-nav-image {
+	padding: 5px 20px 5px 20px;
+	height: inherit;
+	cursor: pointer
+}
+a.gua-nav-image:hover,
+a.gua-nav-link:hover {
+	background-color: #4b8aad
+}
+a.gua-nav-image {
+	height: 55px;
+	padding: 5px 20px 0 20px;
+	overflow: hidden
+}
+.gua-avatar {
+	display: inline-block;
+	box-sizing: content-box;
+	color: #fff;
+	text-align: center;
+	vertical-align: top;
+	background-color: #f6f3e4;
+	font-weight: 400;
+	width: 48px;
+	height: 48px;
+	border-radius: 48px;
+	font-size: 24px;
+	line-height: 48px
+}
+
+#id-name {
+    color: beige;
+    top: 20px;
+    position: relative;
+    float: right
+}
+
+.centor {
+    text-align: center;
+}
+
+body {
+    background: url(../images/back.jpg);
+    background-size: cover;
+}
+
+/* send button */
+.email-send{
+    border-width: 2px;
+    margin-top: 15px;
+}
+
+
+#id-editor-container{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    z-index: 0;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#id-edit-button {
+    position: relative;
+    left: 10%;
+}
+
+#id-button-edit {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.class-chose-body {
+    position: relative;
+    left: 10%;
+}
+
+#id-selectbody-container {
+    position: absolute;
+    margin-top: 10px;
+    border: 1px solid #278aab47;
+    padding: 4px;
+    margin: 10px;
+}
+#id-insert-button {
+    position: absolute;
+    left: 255px;
+    /* margin-top: 0.8%; */
+}
+#id-replace-button {
+    position: absolute;
+    left: 315px;
+}
+.delete-button {
+    position: relative;
+    left: 405px;
+    margin-top: 0.8%;
+}
+.attachment{
+    position: relative;
+    left: 10%;
+}
+.sup {
+    font-size: xx-small;
+    vertical-align: super;
+    color: chocolate;
+}
+.highlight {
+    background-color: yellow;
+}
